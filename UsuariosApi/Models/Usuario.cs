@@ -6,6 +6,6 @@ namespace UsuariosApi.Models
     {
         public DateTime DataNascimento { get; set; }
 
-        public Usuario(): base() { }
+        public Usuario(): base() { } // vai herdar as propriedades de Identity User
     }
 }
