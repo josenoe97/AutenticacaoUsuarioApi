@@ -14,7 +14,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-var connectionString = builder.Configuration.GetConnectionString("UsuarioConnection");
+var connectionString = builder.Configuration
+    ["ConnectionStrings:UsuarioConnection"];
 
 builder.Services.AddDbContext<UsuarioDbContext>
     (opts =>
@@ -61,7 +62,7 @@ builder.Services.AddAuthentication(options =>
     {
         ValidateIssuerSigningKey = true,
         IssuerSigningKey = new SymmetricSecurityKey
-        (Encoding.UTF8.GetBytes("!@(&83y8721Yy*!YShg28sy1yAyY*yw219")),
+        (Encoding.UTF8.GetBytes(builder.Configuration["SymmetricSecurityKey"])),
         ValidateAudience = false,
         ValidateIssuer = false,
         ClockSkew = TimeSpan.Zero
@@ -78,7 +79,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-app.UseAuthentication(); // Esta app usa autenticacao
+app.UseAuthentication(); // Esta app usa autenticacao "OBS: dataNascimentoClaim"
 app.UseAuthorization();
 
 app.MapControllers();
