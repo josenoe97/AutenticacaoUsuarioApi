@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using UsuariosApi.Data;
@@ -24,7 +25,9 @@ builder.Services.AddIdentity<Usuario, IdentityRole>()  // Adiciona o conceito de
 builder.Services.AddAutoMapper
     (AppDomain.CurrentDomain.GetAssemblies());
 
-builder.Services.AddScoped<CadastroService>();
+builder.Services.AddDataProtection().PersistKeysToFileSystem(new DirectoryInfo(Path.GetTempPath()));
+
+builder.Services.AddScoped<UsuarioService>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
