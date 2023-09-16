@@ -64,3 +64,6 @@ C:\Users\edson\OneDrive\Área de Trabalho\Alura\Criando uma web API\UsuariosApi\
 C:\Users\edson\OneDrive\Área de Trabalho\Alura\Criando uma web API\UsuariosApi\UsuariosApi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
 C:\Users\edson\OneDrive\Área de Trabalho\Alura\Criando uma web API\UsuariosApi\UsuariosApi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\edson\OneDrive\Área de Trabalho\Alura\Criando uma web API\UsuariosApi\UsuariosApi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\edson\OneDrive\Área de Trabalho\Alura\Criando uma web API\UsuariosApi\UsuariosApi\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\edson\OneDrive\Área de Trabalho\Alura\Criando uma web API\UsuariosApi\UsuariosApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\edson\OneDrive\Área de Trabalho\Alura\Criando uma web API\UsuariosApi\UsuariosApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll

@@ -9,7 +9,7 @@ namespace UsuariosApi.Services
     {
         private IMapper _mapper;
         private UserManager<Usuario> _userManager;
-        private SignInManager<Usuario> _signInManager;
+        private SignInManager<Usuario> _signInManager; //Essa classe nos provê acesso aos métodos de Login e recuperação de usuários.
         private TokenService _tokenService;
 
         public UsuarioService(IMapper mapper,
