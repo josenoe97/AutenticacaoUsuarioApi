@@ -59,3 +59,8 @@ C:\Users\edson\OneDrive\Área de Trabalho\Alura\Criando uma web API\UsuariosApi\
 C:\Users\edson\OneDrive\Área de Trabalho\Alura\Criando uma web API\UsuariosApi\UsuariosApi\obj\Debug\net6.0\UsuariosApi.pdb
 C:\Users\edson\OneDrive\Área de Trabalho\Alura\Criando uma web API\UsuariosApi\UsuariosApi\obj\Debug\net6.0\UsuariosApi.genruntimeconfig.cache
 C:\Users\edson\OneDrive\Área de Trabalho\Alura\Criando uma web API\UsuariosApi\UsuariosApi\obj\Debug\net6.0\ref\UsuariosApi.dll
+C:\Users\edson\OneDrive\Área de Trabalho\Alura\Criando uma web API\UsuariosApi\UsuariosApi\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\edson\OneDrive\Área de Trabalho\Alura\Criando uma web API\UsuariosApi\UsuariosApi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\edson\OneDrive\Área de Trabalho\Alura\Criando uma web API\UsuariosApi\UsuariosApi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\edson\OneDrive\Área de Trabalho\Alura\Criando uma web API\UsuariosApi\UsuariosApi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\edson\OneDrive\Área de Trabalho\Alura\Criando uma web API\UsuariosApi\UsuariosApi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
